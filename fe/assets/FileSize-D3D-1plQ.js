@@ -1,0 +1,1 @@
+import{l as a,Q as n,o as c,c as i,t as r,u as l}from"./index-BMd-QA-V.js";const p={class:"small"},u={__name:"FileSize",props:["item"],setup(t){const e=a(""),o=t;return n(async()=>{e.value=((await fetch(o.item.blob).then(s=>s.blob())).size/1024).toFixed(2)+" KB"}),(s,_)=>(c(),i("span",p,r(l(e)),1))}};export{u as _};
